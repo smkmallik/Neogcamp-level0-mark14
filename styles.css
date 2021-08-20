@@ -1,0 +1,31 @@
+.header-container {
+    text-align: center;
+    padding: 2rem;
+}
+
+body {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin: auto;
+    padding: 1rem;
+}
+
+input {
+    display: block;
+    margin: auto;
+}
+
+button {
+    display: block;
+    margin: auto;
+    margin-top: 2rem ;
+}
+
+#output-container {
+    margin: 2rem;
+    color: white;
+}
+
