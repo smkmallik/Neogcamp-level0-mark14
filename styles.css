@@ -1,31 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+:root {
+    --primary-color: #00B0FF;
+    --font-color: white;
+}
+
+
 .header-container {
+    display: block;
     text-align: center;
-    padding: 2rem;
+    font-size: x-large;
+    background-color: var(--primary-color);
+    padding: 1rem;
+    color: var(--font-color);
 }
 
 body {
+    font-family: 'Acme', sans-serif;
     text-align: center;
+    margin: 0;
 }
 
 label {
     display: block;
     margin: auto;
-    padding: 1rem;
+    padding: 1.52rem;
 }
 
 input {
     display: block;
     margin: auto;
+    text-align: center;
+    font-family: inherit;
 }
 
 button {
-    display: block;
-    margin: auto;
-    margin-top: 2rem ;
+    font-family: inherit;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 0.5rem;
+    padding: 0.8rem 2rem;
+    font-size: medium;
+    border: none;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    background-color: var(--primary-color);
+    color: var(--font-color);
+    cursor: pointer;
+
 }
 
 #output-container {
-    margin: 2rem;
+    margin: 1rem;
     color: white;
 }
 
+#main-container{
+    padding-top: 4rem;
+}
+
+footer {
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 1rem;
+    color: var(--font-color);
+    bottom: 0;
+}
+
+li {
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    display: inline;
+}
+
+ul {
+    padding-inline-start: 0px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding-inline-start: 1rem;
+}
+
+.end-credits {
+    margin: 1rem;
+    font-size: small;
+    font-weight: bold;
+    text-align: center;
+}
