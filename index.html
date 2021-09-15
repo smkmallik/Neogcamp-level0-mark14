@@ -15,13 +15,13 @@
 
     <div class="main-container">
         <label for="initial-price-input">Enter Initial Price: </label>
-        <input id="inital-price-input" type="number" placeholder="Initial Price"></input>
+        <input id="inital-price-input" type="number" placeholder="Initial Price" min="0" oninput="validity.valid||(value='');"></input>
 
         <label for="quantity-input">Enter Quantity: </label>
-        <input id="quantity-input" type="number" placeholder="Quantity"></input>
+        <input id="quantity-input" type="number" placeholder="Quantity" min="0" oninput="validity.valid||(value='');"></input>
 
         <label for="current-price-input">Enter Current Price: </label>
-        <input id="current-price-input" type="number" placeholder="Current Price"></input>
+        <input id="current-price-input" type="number" placeholder="Current Price" min="0" oninput="validity.valid||(value='');"></input>
 
         <button id="calculate-button">Calculate</button>
 
